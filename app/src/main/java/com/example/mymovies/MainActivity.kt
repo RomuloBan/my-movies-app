@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    ButtonText()
+                    MediaItem()
                 }
             }
         }
@@ -60,7 +60,7 @@ fun MediaItem() {
                 .height(200.dp)
                 .fillMaxWidth()
                 .background(Color.Red)
-        ) {}
+        )
         Box(
             modifier = Modifier
                 .fillMaxWidth()
